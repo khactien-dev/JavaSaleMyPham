@@ -10,10 +10,10 @@ import com.poly.entity.Account;
 import com.poly.service.AccountService;
 
 @Service
-public class AccountServiceImplement implements AccountService{
+public class AccountServiceImplement implements AccountService {
 	@Autowired
 	AccountDAO accountDAO;
-	
+
 	@Override
 	public Account findById(String username) {
 		Account account = accountDAO.findById(username).get();
