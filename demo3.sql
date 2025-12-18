@@ -162,6 +162,7 @@ INSERT [dbo].[Accounts] ([Username], [Password], [Fullname], [Email], [Photo]) V
 INSERT [dbo].[Accounts] ([Username], [Password], [Fullname], [Email], [Photo]) VALUES (N'CHOPS', N'chops', N'Yang Wang', N'chops@gmail.com', N'user.png')
 INSERT [dbo].[Accounts] ([Username], [Password], [Fullname], [Email], [Photo]) VALUES (N'COMMI', N'commi', N'Pedro Afonso', N'commi@gmail.com', N'user.png')
 INSERT [dbo].[Accounts] ([Username], [Password], [Fullname], [Email], [Photo]) VALUES (N'WOLZA', N'wolza', N'Zbyszek Piestrzeniewicz', N'wolza@gmail.com', N'user.png')
+INSERT [dbo].[Accounts] ([Username], [Password], [Fullname], [Email], [Photo]) VALUES (N'WOLZA1', N'wolza1', N'Zbyszek Piestrzeniewicz1', N'tiena@gmail.com', N'user.png')
 SET IDENTITY_INSERT [dbo].[Authorities] ON 
 
 INSERT [dbo].[Authorities] ([Id], [Username], [RoleId]) VALUES (2, N'Thuha',N'STAF')
